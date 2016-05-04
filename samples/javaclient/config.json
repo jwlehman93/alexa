@@ -1,17 +1,17 @@
 {
-    "productId":"",
-    "dsn":"",
-    "provisioningMethod":"",
+    "productId":"alexa_pi",
+    "dsn":"123456",
+    "provisioningMethod":"companionService",
     "companionApp":{
         "localPort":8443,
-        "sslKeyStore":"",
-        "sslKeyStorePassphrase":"",
+        "sslKeyStore":"/homes/alarm/alexa/samples/javaclient/certs/server/jetty.pkcs12",
+        "sslKeyStorePassphrase":"Flyhalf10",
         "lwaUrl":"https://api.amazon.com"
     },
     "companionService":{
         "serviceUrl":"https://localhost:3000",
-        "sslClientKeyStore":"",
-        "sslClientKeyStorePassphrase":"",
-        "sslCaCert":""
+        "sslClientKeyStore":"/home/alarm/alexa/samples/javaclient/certs/client/client.pkcs12",
+        "sslClientKeyStorePassphrase":"Flyhalf10",
+        "sslCaCert":"/homes/alarm/alexa/samples/javaclient/certs/ca/ca.crt"
     }
 }
